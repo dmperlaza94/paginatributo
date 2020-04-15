@@ -1,0 +1,57 @@
+body{
+    background: black;
+    color: white;
+}
+.borde{
+    border: 5px solid white;
+    padding: 50px;
+    margin: 50px;
+}
+.perfil{
+    text-align: center;
+    
+}
+
+.andres{
+    width: 80%;
+
+   
+
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.galery1,.galery2,.galery3{
+    flex-wrap: wrap;
+
+}
+footer,.copy, h2{ text-align: center;
+    margin-top: 25px;
+}
+.social-bar{ border-radius: 50%;
+}
+
+ @media(min-width:300px)and (max-width:700px){
+   
+ }
+ .principal{  display: block;
+    text-align: center;
+    padding: 10px;
+}/* no hay necesidad de poner display:block; en todos los contemnedores por que ya se puso en el contenedor principal
+.galery1,.galery2,.galery3{
+      display:block;
+}*/
+}
+
